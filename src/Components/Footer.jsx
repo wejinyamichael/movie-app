@@ -4,8 +4,8 @@ import {FaWhatsapp, FaFacebook, FaInstagram, FaTiktok, FaTwitter, FaSnapchat, Fa
 
 function Footer() {
   return (
-    <div>
-        <div class="footer">
+<div>
+<div class="footer">
   <div className="footer-left">
     <p>
       Copyright &copy; 2023 | All rights reserved | Designed by Wejinya Michael. 

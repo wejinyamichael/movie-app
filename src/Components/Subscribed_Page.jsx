@@ -1,15 +1,14 @@
 import React from 'react'
-// import Main from './Main'
-import Header_subscribed from './Header_subscribed'
 import Subscribed_Main from './Subscribed_Main'
+import Header_subscribed from './Header_subscribed'
 
-function Subscribed() {
+function Subscribed_Page() {
   return (
     <div>
         <Header_subscribed />
         <Subscribed_Main />
-</div>
-    )
+    </div>
+  )
 }
 
-export default Subscribed
+export default Subscribed_Page

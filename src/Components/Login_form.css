@@ -89,7 +89,7 @@ body{
     gap: 0.5rem;
 }
 .signup span{
-    color: 8c8c8c;
+    color: #8c8c8c;
 }
 .signup span a{
     color: white;
@@ -112,8 +112,26 @@ body{
 }
 .description span a{
     margin-left: 5px;
-    color: blue;
+    color: rgb(95, 95, 245);
 }
 #input_button{
     cursor: pointer;
+}
+
+
+@media (max-width:375px){
+    .login{
+        /* display: none; */
+        margin-left: -17px;
+        margin-bottom: -11500px;
+        margin-top: 50px;
+    }
+    .login1{
+        width: 100%;
+        background-color: rgb(1,27,51);
+
+    }
+    .login2{
+        width: 90%;
+    }
 }

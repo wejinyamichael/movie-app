@@ -7,6 +7,8 @@ import Signup_form from "./Components/Signup_form";
 import Home from "./Components/Home";
 import Subscribed from "./Components/Subscribed";
 import Help_Form from "./Components/Help_Form";
+import Subscribed_Main from "./Components/Subscribed_Main";
+import Subscribed_Page from "./Components/Subscribed_Page";
 
 
 
@@ -25,6 +27,8 @@ return (
           <Route path='/subscribed' element={<Subscribed />} />
           <Route path='/signup_form' element={<Signup_form />} />
           <Route path='/help_form' element={<Help_Form />} />
+          <Route path='/subscribed' element={<Subscribed_Main />} />
+          <Route path='/subscribed' element={<Subscribed_Page />} />
         </Routes> 
         <Footer />
       </BrowserRouter>

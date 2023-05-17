@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {Link} from "react-router-dom"
+// import Search from './Search'
 
 
 function Header() {
+  // const [searchValue, setSearchValue] = useState('')
+
+
+
   return (
     <>
         <div className="menu">
@@ -10,9 +15,14 @@ function Header() {
          <p>Login</p>
          </Link>
       </div>
-        <div className="search">
-            <input placeholder='search movies...' className="search"></input>
-        </div>
+
+
+        {/* <Search 
+          searchValue={searchValue} 
+          setSearchValue={setSearchValue}
+        /> */}
+
+
       <div className="container3">
           <div className="image">
               <img src="../arkflixlogo.png" alt="" />
